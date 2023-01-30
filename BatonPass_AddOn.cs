@@ -37,13 +37,13 @@ namespace NinjaTrader.NinjaScript.Indicators	        // Namespace for NT Indicat
             // Default info
             if (State == State.SetDefaults)
 			{
-				Description							= @"Passes market data to SQL database (BatonPassDB)";
-				Name								= "BatonPass";
+				Description		= @"Passes market data to SQL database (BatonPassDB)";
+				Name			= "BatonPass";
 
-				Calculate							= Calculate.OnEachTick;
-                DisplayInDataBox					= false;
-                PaintPriceMarkers					= false;
-                IsSuspendedWhileInactive			= false;
+				Calculate					= Calculate.OnEachTick;
+                DisplayInDataBox			= false;
+                PaintPriceMarkers			= false;
+                IsSuspendedWhileInactive	= false;
             }
 
             // Configure values
