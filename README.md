@@ -4,7 +4,7 @@
  Not sure where the formatting errors are coming from. 
  First time publishing from Visual Studio.
 
-Setup: \n
+Setup:
 1. Requires a SQLEXPRESS server instance. 
 2. Run the scripts from BatonPass_DB or use the publish.xml in VS to setup the database. 
 Alternatively, create your own and change the connection string in BatonPass_Dapper.
