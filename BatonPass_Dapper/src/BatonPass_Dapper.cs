@@ -39,7 +39,7 @@ namespace BatonPass_Dapper
     // Contains methods for accessing BatonPass_DB
     public class DatabaseAccess
     {
-        // Adds new MarketDataRow to marketData_table
+        // Adds new MarketDataRow to marketData
         public static void AddMarketData(DateTime time, string instrument, double price, long volume)
         {
             using (IDbConnection connection = new SqlConnection(@"Server=localhost\SQLEXPRESS;Database=BatonPass_DB;Trusted_Connection=True;"))
@@ -50,7 +50,7 @@ namespace BatonPass_Dapper
             }
         }
 
-        // Updates askLadder_table
+        // Updates askLadder
         public static void UpdateAskLadder(int position, double price, long volume)
         {
             using (IDbConnection connection = new SqlConnection(@"Server=localhost\SQLEXPRESS;Database=BatonPass_DB;Trusted_Connection=True;"))
@@ -61,7 +61,7 @@ namespace BatonPass_Dapper
             }
         }
 
-        // Updates bidLadder_table
+        // Updates bidLadder
         public static void UpdateBidLadder(int position, double price, long volume)
         {
             using (IDbConnection connection = new SqlConnection(@"Server=localhost\SQLEXPRESS;Database=BatonPass_DB;Trusted_Connection=True;"))
