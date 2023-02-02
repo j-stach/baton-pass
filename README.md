@@ -14,4 +14,4 @@ To modify and recompile BatonPass_Dapper, you will require .NET Framework 4.8.
 6. Right-click and select compile. 
 7. Once compiled, open a NinjaScript Output window and a trading chart. 
 8. Add the BatonPass indicator and apply, then open the Chart Trader. You should see a large "BatonPass" button. 
-Selecting the button prints the status of the data stream to te output window. 
+Selecting the button prints the status of the data stream to the output window. 
