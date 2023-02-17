@@ -1,7 +1,7 @@
 # baton-pass
  Plugin for NinjaTrader 8 to collect market data into local SQL database
  
- Sorry, not sure where the formatting errors in BatonPass_AddOn.cs are coming from. 
+ Sorry, not sure where the indenting errors in BatonPass_AddOn.cs are coming from. 
 
 Setup:
 1. Requires a SQLEXPRESS server instance. 
