@@ -9,7 +9,7 @@ Setup:
 Alternatively, create your own and change the connection strings in BatonPass_Dapper.cs.
 To modify and recompile BatonPass_Dapper, you will require .NET Framework 4.8.
 4. Add BatonPass_AddOn.cs and \BatonPass_Dapper to the \bin\Custom\Indicators folder in your NinjaTrader 8 directory. 
-5. Open a NinjaScript Editor window and use the Explorer to open the BatonPass_AddOn file.
+5. Open a NinjaScript Editor window and use the Explorer to open the BatonPass.cs file.
 6. Right-click and select compile. Once compiled, open a NinjaScript Output window and a trading chart. 
 7. Add the BatonPass indicator to the chart and apply, then open the Chart Trader. You should see a large "BatonPass" button. 
 Selecting the button starts or stops a data stream and prints its status to the output window. 
