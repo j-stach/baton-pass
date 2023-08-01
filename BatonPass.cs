@@ -42,8 +42,8 @@ namespace NinjaTrader.NinjaScript.Indicators	        // Namespace for NT Indicat
 
 		Calculate			= Calculate.OnEachTick;
                 DisplayInDataBox		= false;
-                PaintPriceMarkers		= false;
-                IsSuspendedWhileInactive	= false;
+		PaintPriceMarkers		= false;
+		IsSuspendedWhileInactive	= false;
             }
 
             // Configure values
