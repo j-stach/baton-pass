@@ -68,10 +68,4 @@
     <Build Include="dbo\procedures\UpdateBidLadder.sql" />
     <Build Include="dbo\procedures\AddMarketData.sql" />
   </ItemGroup>
-  <ItemGroup>
-    <RefactorLog Include="BatonPass_DB.refactorlog" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="BatonPass_DB.publish.xml" />
-  </ItemGroup>
 </Project>
