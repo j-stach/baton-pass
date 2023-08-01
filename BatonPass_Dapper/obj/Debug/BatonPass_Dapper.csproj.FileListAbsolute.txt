@@ -1,9 +1,0 @@
-C:\Users\Jordan\source\repos\BatonPass_Dapper\bin\Debug\BatonPass_Dapper.dll
-C:\Users\Jordan\source\repos\BatonPass_Dapper\bin\Debug\BatonPass_Dapper.pdb
-C:\Users\Jordan\source\repos\BatonPass_Dapper\bin\Debug\Dapper.dll
-C:\Users\Jordan\source\repos\BatonPass_Dapper\bin\Debug\Dapper.xml
-C:\Users\Jordan\source\repos\BatonPass_Dapper\obj\Debug\BatonPass_Dapper.csproj.AssemblyReference.cache
-C:\Users\Jordan\source\repos\BatonPass_Dapper\obj\Debug\BatonPass_Dapper.csproj.CoreCompileInputs.cache
-C:\Users\Jordan\source\repos\BatonPass_Dapper\obj\Debug\BatonPass_Dapper.csproj.CopyComplete
-C:\Users\Jordan\source\repos\BatonPass_Dapper\obj\Debug\BatonPass_Dapper.dll
-C:\Users\Jordan\source\repos\BatonPass_Dapper\obj\Debug\BatonPass_Dapper.pdb
