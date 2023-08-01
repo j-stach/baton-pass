@@ -26,7 +26,7 @@ namespace NinjaTrader.NinjaScript.Indicators	        // Namespace for NT Indicat
 
         #endregion
 
-        // "Main" function equivalent
+        // Integrates BatonPass with NT8 state system
         protected override void OnStateChange()
         {
             // Debug
@@ -37,12 +37,12 @@ namespace NinjaTrader.NinjaScript.Indicators	        // Namespace for NT Indicat
             // Default info
             if (State == State.SetDefaults)
             {
-				Description		= @"Passes market data to SQL database (BatonPassDB)";
-				Name			= "BatonPass";
+		Description	= @"Passes market data to SQL database (BatonPassDB)";
+		Name		= "BatonPass";
 
-				Calculate					= Calculate.OnEachTick;
-                DisplayInDataBox			= false;
-                PaintPriceMarkers			= false;
+		Calculate			= Calculate.OnEachTick;
+                DisplayInDataBox		= false;
+                PaintPriceMarkers		= false;
                 IsSuspendedWhileInactive	= false;
             }
 
@@ -93,6 +93,7 @@ namespace NinjaTrader.NinjaScript.Indicators	        // Namespace for NT Indicat
             if (chartTraderGrid.RowDefinitions.Count <= 7)
                 chartTraderGrid.RowDefinitions.Add(new RowDefinition());
 
+	    // Customize the Baton Pass button
             #region Pass Button
             passButton = new Button
             {
